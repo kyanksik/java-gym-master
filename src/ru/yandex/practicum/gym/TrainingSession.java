@@ -33,4 +33,10 @@ public class TrainingSession {
     public TimeOfDay getTimeOfDay() {
         return timeOfDay;
     }
+
+
+    @Override
+    public String toString() {
+        return group.getTitle();
+    }
 }
